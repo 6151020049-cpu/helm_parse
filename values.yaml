@@ -93,8 +93,10 @@ server:
   ##
   image:
     registry: docker.io
-    repository: bitnami/parse
-    tag: 8.2.3-debian-12-r13
+    ## repository: bitnami/parse
+    repository: parseplatform/parse-server
+    ## tag: 8.2.3-debian-12-r13 
+    tag: 9.10.1-alpha.3
     digest: ""
     ## Specify a imagePullPolicy
     ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
@@ -529,8 +531,10 @@ dashboard:
   ##
   image:
     registry: docker.io
-    repository: bitnami/parse-dashboard
-    tag: 7.3.0-debian-12-r15
+    ## repository: bitnami/parse-dashboard
+    repository: parseplatform/parse-dashboard
+    ## tag: 7.3.0-debian-12-r15
+    tag: 9.2.1-alpha.1
     digest: ""
     ## Specify a imagePullPolicy
     ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
