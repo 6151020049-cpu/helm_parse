@@ -14,7 +14,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-20T23:57:28.444972852+07:00"
+    created: "2026-07-21T18:44:33.520715144+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -59,7 +59,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-20T23:57:28.430622193+07:00"
+    created: "2026-07-21T18:44:33.502570411+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -91,4 +91,4 @@ entries:
     urls:
     - release/parse-25.1.15-custom.1.tgz
     version: 25.1.15-custom.1
-generated: "2026-07-20T23:57:28.395869738+07:00"
+generated: "2026-07-21T18:44:33.471159653+07:00"

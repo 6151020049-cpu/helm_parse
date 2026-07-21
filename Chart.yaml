@@ -40,4 +40,4 @@ name: parse
 sources:
 - https://github.com/bitnami/charts/tree/main/bitnami/parse
 - https://github.com/6151020049-cpu/helm_parse
-version: 25.1.15-custom.1
+version: 25.1.15-custom.2
