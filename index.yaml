@@ -14,7 +14,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-22T13:47:22.466016026+07:00"
+    created: "2026-07-22T14:01:51.601145864+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -45,7 +45,7 @@ entries:
     - https://github.com/bitnami/charts/tree/main/bitnami/parse
     - https://github.com/6151020049-cpu/helm_parse
     urls:
-    - https://6151020049-cpu.github.io/helm_parse/release/parse-25.1.15-custom.2.tgz
+    - https://raw.githubusercontent.com/6151020049-cpu/helm_parse/refs/heads/main/release/parse-25.1.15-custom.2.tgz
     version: 25.1.15-custom.2
   - annotations:
       category: DeveloperTools
@@ -60,7 +60,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-22T13:47:22.444788085+07:00"
+    created: "2026-07-22T14:01:51.58317574+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -90,6 +90,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/parse
     urls:
-    - https://6151020049-cpu.github.io/helm_parse/release/parse-25.1.15-custom.1.tgz
+    - https://raw.githubusercontent.com/6151020049-cpu/helm_parse/refs/heads/main/release/parse-25.1.15-custom.1.tgz
     version: 25.1.15-custom.1
-generated: "2026-07-22T13:47:22.418683837+07:00"
+generated: "2026-07-22T14:01:51.565633197+07:00"
