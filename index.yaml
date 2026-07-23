@@ -14,7 +14,52 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-22T14:01:51.601145864+07:00"
+    created: "2026-07-23T14:10:30.553172873+07:00"
+    dependencies:
+    - name: mongodb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Parse is a platform that enables users to add a scalable and powerful
+      backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
+      Unity, and more.
+    digest: 51493551ccb57cef062b8a2fbd8d8c1f71d1b0e3c52438ecdd586f82c787f4dd
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
+    keywords:
+    - parse
+    - backend
+    - serverless
+    - platform
+    - mbaas
+    - mobile
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: parse
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/parse
+    urls:
+    - release/parse-25.1.15.tgz
+    version: 25.1.15
+  - annotations:
+      category: DeveloperTools
+      images: |
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r50
+        - name: parse
+          image: docker.io/bitnami/parse:8.2.3-debian-12-r13
+        - name: parse-dashboard
+          image: docker.io/bitnami/parse-dashboard:7.3.0-debian-12-r15
+      licenses: Apache-2.0
+      tanzuCategory: application
+    apiVersion: v2
+    appVersion: 8.2.3
+    created: "2026-07-23T14:10:30.541347582+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -45,7 +90,7 @@ entries:
     - https://github.com/bitnami/charts/tree/main/bitnami/parse
     - https://github.com/6151020049-cpu/helm_parse
     urls:
-    - https://raw.githubusercontent.com/6151020049-cpu/helm_parse/refs/heads/main/release/parse-25.1.15-custom.2.tgz
+    - release/parse-25.1.15-custom.2.tgz
     version: 25.1.15-custom.2
   - annotations:
       category: DeveloperTools
@@ -60,7 +105,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-22T14:01:51.58317574+07:00"
+    created: "2026-07-23T14:10:30.527110999+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -90,6 +135,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/parse
     urls:
-    - https://raw.githubusercontent.com/6151020049-cpu/helm_parse/refs/heads/main/release/parse-25.1.15-custom.1.tgz
+    - release/parse-25.1.15-custom.1.tgz
     version: 25.1.15-custom.1
-generated: "2026-07-22T14:01:51.565633197+07:00"
+generated: "2026-07-23T14:10:30.506902143+07:00"
