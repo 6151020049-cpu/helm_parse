@@ -14,7 +14,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-23T15:44:49.002490268+07:00"
+    created: "2026-07-24T16:37:04.694912916+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -27,7 +27,7 @@ entries:
     description: Parse is a platform that enables users to add a scalable and powerful
       backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
       Unity, and more.
-    digest: a5dd3f6b87ae6153963fa9d44e22b6dca5017ad1752244476e17a104ca76a8cb
+    digest: 65ae00dd9ff86ecc1bc24cad8e7464a7ede32497ca5ab82dd09bd216410697be
     home: https://bitnami.com
     icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
     keywords:
@@ -47,140 +47,4 @@ entries:
     urls:
     - release/parse-25.1.16.tgz
     version: 25.1.16
-  - annotations:
-      category: DeveloperTools
-      images: |
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r50
-        - name: parse
-          image: docker.io/bitnami/parse:8.2.3-debian-12-r13
-        - name: parse-dashboard
-          image: docker.io/bitnami/parse-dashboard:7.3.0-debian-12-r15
-      licenses: Apache-2.0
-      tanzuCategory: application
-    apiVersion: v2
-    appVersion: 8.2.3
-    created: "2026-07-23T15:44:48.981250685+07:00"
-    dependencies:
-    - name: mongodb
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 16.x.x
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Parse is a platform that enables users to add a scalable and powerful
-      backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
-      Unity, and more.
-    digest: 51493551ccb57cef062b8a2fbd8d8c1f71d1b0e3c52438ecdd586f82c787f4dd
-    home: https://bitnami.com
-    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
-    keywords:
-    - parse
-    - backend
-    - serverless
-    - platform
-    - mbaas
-    - mobile
-    maintainers:
-    - name: Broadcom, Inc. All Rights Reserved.
-      url: https://github.com/bitnami/charts
-    name: parse
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/parse
-    urls:
-    - release/parse-25.1.15.tgz
-    version: 25.1.15
-  - annotations:
-      category: DeveloperTools
-      images: |
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r50
-        - name: parse
-          image: docker.io/bitnami/parse:8.2.3-debian-12-r13
-        - name: parse-dashboard
-          image: docker.io/bitnami/parse-dashboard:7.3.0-debian-12-r15
-      licenses: Apache-2.0
-      tanzuCategory: application
-    apiVersion: v2
-    appVersion: 8.2.3
-    created: "2026-07-23T15:44:48.959757749+07:00"
-    dependencies:
-    - name: mongodb
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 16.x.x
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Parse is a platform that enables users to add a scalable and powerful
-      backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
-      Unity, and more.
-    digest: 7e336f7f372c30d887524a4d208c3954a5d4527d731feee8e3dbb39d1f96bce7
-    home: https://bitnami.com
-    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
-    keywords:
-    - parse
-    - backend
-    - serverless
-    - platform
-    - mbaas
-    - mobile
-    maintainers:
-    - name: Broadcom, Inc. All Rights Reserved.
-      url: https://github.com/6151020049-cpu
-    name: parse
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/parse
-    - https://github.com/6151020049-cpu/helm_parse
-    urls:
-    - release/parse-25.1.15-custom.2.tgz
-    version: 25.1.15-custom.2
-  - annotations:
-      category: DeveloperTools
-      images: |
-        - name: os-shell
-          image: docker.io/bitnami/os-shell:12-debian-12-r50
-        - name: parse
-          image: docker.io/bitnami/parse:8.2.3-debian-12-r13
-        - name: parse-dashboard
-          image: docker.io/bitnami/parse-dashboard:7.3.0-debian-12-r15
-      licenses: Apache-2.0
-      tanzuCategory: application
-    apiVersion: v2
-    appVersion: 8.2.3
-    created: "2026-07-23T15:44:48.948428433+07:00"
-    dependencies:
-    - name: mongodb
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 16.x.x
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Parse is a platform that enables users to add a scalable and powerful
-      backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
-      Unity, and more.
-    digest: 9ef5b9e535a6b50076e19b4d1a695cdddbee3e8051f5d688b02cc798e7cd1017
-    home: https://bitnami.com
-    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
-    keywords:
-    - parse
-    - backend
-    - serverless
-    - platform
-    - mbaas
-    - mobile
-    maintainers:
-    - name: Broadcom, Inc. All Rights Reserved.
-      url: https://github.com/bitnami/charts
-    name: parse
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/parse
-    urls:
-    - release/parse-25.1.15-custom.1.tgz
-    version: 25.1.15-custom.1
-generated: "2026-07-23T15:44:48.930690768+07:00"
+generated: "2026-07-24T16:37:04.681222545+07:00"
