@@ -14,7 +14,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-07-24T16:37:04.694912916+07:00"
+    created: "2026-08-22T16:08:23.624607803+07:00"
     dependencies:
     - name: mongodb
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -27,7 +27,7 @@ entries:
     description: Parse is a platform that enables users to add a scalable and powerful
       backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
       Unity, and more.
-    digest: 65ae00dd9ff86ecc1bc24cad8e7464a7ede32497ca5ab82dd09bd216410697be
+    digest: cfab59395ac19e34768824a3ecb54bbf001f23fbc47831cf1b1a23acec9fa2dd
     home: https://bitnami.com
     icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/parse/img/parse-stack-220x234.png
     keywords:
@@ -47,4 +47,4 @@ entries:
     urls:
     - release/parse-25.1.16.tgz
     version: 25.1.16
-generated: "2026-07-24T16:37:04.681222545+07:00"
+generated: "2026-08-22T16:08:23.607963968+07:00"
