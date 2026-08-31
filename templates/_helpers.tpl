@@ -96,7 +96,7 @@ but Helm 2.9 and 2.10 does not support it, so we need to implement this if-else 
 {{- if .Values.ingress.enabled -}}
 {{- $ingressHost := .Values.ingress.server.hostname -}}
 {{- $serverHost := default $ingressHost $host -}}
-{{- default (include "parse.serviceIP" .) $serverHost -}}
+{{- default (include "common.names.fullname" .) $serverHost -}}
 {{- else -}}
 {{- default (include "parse.serviceIP" .) $host -}}
 {{- end -}}
